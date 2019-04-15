@@ -2,12 +2,10 @@ header {
   height: 75px;
   width: 480px;
   text-align: center;
-  border: 1px solid #000;
 }
 
 #featured-section {
   height: 150px;
-  border: 1px solid #000;
 }
 
 .sub-section {
@@ -29,7 +27,6 @@ header {
 
 footer {
   height: 80px;
-  border: 1px solid #000;
 }
 
 @media (min-width: 768px) {
