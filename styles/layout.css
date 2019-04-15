@@ -1,6 +1,6 @@
 header {
   height: 75px;
-  width: 480px;
+  width: 100%;
   text-align: center;
 }
 
@@ -29,5 +29,37 @@ footer {
   height: 80px;
 }
 
+/* DESKTOP */
 @media (min-width: 768px) {
+  header {
+    width: 100%;
+    height: 100px;
+  }
+
+  #featured-section {
+    float: left;
+    height: 600px;
+    width: 200px;
+    box-sizing: border-box;
+  }
+
+  .sub-section {
+    display: inline-block;
+    height: 200px;
+    width: 380px;
+    box-sizing: border-box;
+  }
+
+  .float-right {
+    float: right;
+  }
+
+  .inline-section {
+    height: 250px;
+    width: 188px;
+  }
+
+  .inline-section:nth-child(even) {
+    float: none;
+  }
 }
