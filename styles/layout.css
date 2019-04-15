@@ -2,6 +2,7 @@ header {
   height: 75px;
   width: 100%;
   text-align: center;
+  box-sizing: border-box;
 }
 
 #featured-section {
@@ -56,10 +57,11 @@ footer {
 
   .inline-section {
     height: 250px;
-    width: 188px;
+    width: 190px;
+    float: left;
   }
 
-  .inline-section:nth-child(even) {
+  /* .inline-section:nth-child(even) {
     float: none;
-  }
+  } */
 }
