@@ -81,6 +81,8 @@ footer {
   }
 }
 
+/* DESKTOP */
+
 @media (min-width: 960px) {
   header {
     background-color: #9fa2f5;
