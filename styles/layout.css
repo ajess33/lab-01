@@ -30,8 +30,14 @@ footer {
   height: 80px;
 }
 
-/* DESKTOP */
+/* TABLET  */
+
 @media (min-width: 768px) {
+}
+
+/* DESKTOP */
+
+@media (min-width: 960px) {
   header {
     width: 100%;
     height: 100px;
@@ -61,7 +67,9 @@ footer {
     float: left;
   }
 
-  /* .inline-section:nth-child(even) {
-    float: none;
-  } */
+  footer {
+    clear: right;
+    height: 150px;
+    box-sizing: border-box;
+  }
 }
