@@ -1,6 +1,6 @@
 /* MOBILE COLORS */
 
-header p {
+header {
   background-color: #ff9696;
 }
 
@@ -73,5 +73,44 @@ footer {
 
   footer {
     background-color: #ff9696;
+  }
+}
+
+@media (min-width: 960px) {
+  header {
+    background-color: #dc96ff;
+  }
+
+  main #sidebar {
+    background-color: #ff9696;
+  }
+
+  main .featured:nth-child(3) {
+    background-color: #96a0ff;
+  }
+
+  main .featured:nth-child(2) {
+    background-color: #62aebc;
+  }
+
+  main article:nth-child(1) {
+    background-color: #0b6192;
+  }
+
+  main article:nth-child(2) {
+    /*done  */
+    background-color: #cb51b5;
+  }
+
+  main article:nth-child(3) {
+    background-color: #eeff96;
+  }
+
+  main article:nth-child(4) {
+    background-color: #ffda96;
+  }
+
+  footer {
+    background-color: #96f9ff;
   }
 }
