@@ -1,6 +1,6 @@
 /* Breakpoints
 mobile: 768
-tablet: 768-960
+tablet: 768-959
 desktop: 960 */
 
 @media (min-width: 960px) {
@@ -10,13 +10,14 @@ desktop: 960 */
   }
 
   main #sidebar {
-    display: inline-block;
+    /* display: inline-block; */
+    float: left;
     height: 600px;
     width: 200px;
   }
 
   .featured-wrapper {
-    display: inline-flex;
+    display: flex;
     box-sizing: border-box;
   }
 
@@ -40,5 +41,6 @@ desktop: 960 */
   footer {
     height: 150px;
     width: 760px;
+    margin-left: 200px;
   }
 }
