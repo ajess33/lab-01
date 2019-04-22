@@ -6,13 +6,54 @@
 /* Base styles include setting heading sizes, default link styles, default font styles, and body backgrounds */
 
 body {
-  text-align: center;
-  margin: 0 auto;
+  /* text-align: center; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.content-wrapper {
   max-width: 960px;
+  margin: 0 auto;
+}
+
+header p {
+  height: 75px;
+}
+
+section,
+article,
+header,
+footer {
+  border: 1px solid #000;
   box-sizing: border-box;
 }
 
 p {
-  position: relative;
-  top: 45%;
+  max-width: 960px;
+}
+
+main #sidebar p {
+  height: 150px;
+}
+
+.featured,
+.featured1 {
+  height: 125px;
+}
+
+main .article-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  border: none;
+}
+
+main .article-wrapper article p {
+  height: 250px;
+  width: 240px;
+  box-sizing: border-box;
+}
+
+footer p {
+  height: 80px;
 }

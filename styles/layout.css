@@ -1,75 +1,28 @@
-header {
-  height: 75px;
-  width: 100%;
-  text-align: center;
-  box-sizing: border-box;
-}
-
-#featured-section {
-  height: 150px;
-}
-
-.sub-section {
-  height: 125px;
-  border: 1px solid #000;
-}
-
-.inline-section:nth-child(even) {
-  float: right;
-}
-
-.inline-section {
-  display: inline-block;
-  width: 50%;
-  height: 250px;
-  border: 1px solid #000;
-  box-sizing: border-box;
-}
-
-footer {
-  height: 80px;
-}
-
-/* TABLET  */
-
-@media (min-width: 768px) {
-}
-
-/* DESKTOP */
+/* Breakpoints
+mobile: 768
+tablet: 768-960
+desktop: 960 */
 
 @media (min-width: 960px) {
-  header {
-    width: 100%;
+  header p {
     height: 100px;
   }
 
-  #featured-section {
-    float: left;
+  main #sidebar {
+    display: inline-block;
     height: 600px;
     width: 200px;
+  }
+
+  .featured-wrapper {
+    display: flex;
     box-sizing: border-box;
   }
 
-  .sub-section {
-    display: inline-block;
-    height: 200px;
+  .featured,
+  .featured1 {
     width: 380px;
-    box-sizing: border-box;
-  }
-
-  .float-right {
-    float: right;
-  }
-
-  .inline-section {
-    height: 250px;
-    width: 190px;
-    float: left;
-  }
-
-  footer {
-    clear: right;
-    height: 150px;
+    height: 200px;
     box-sizing: border-box;
   }
 }
